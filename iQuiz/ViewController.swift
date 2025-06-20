@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var botaoIniciarQuiz: UIButton!
 
+    @IBAction func botaoPressionado(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        ajusteLayout()
     }
-
-
+    func ajusteLayout(){
+    }
 }
 
